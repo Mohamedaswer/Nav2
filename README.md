@@ -1,6 +1,3 @@
-# Nav2
-
-```markdown
 # Nav2 - Butler Robot
 
 This repository contains the ROS 2 packages for a butler robot that uses the Navigation2 stack to handle food delivery tasks. The robot can move between the kitchen, tables, and home position based on user input.
@@ -134,7 +131,4 @@ Handle multiple orders? (yes/no): no
 
 - **ROS 2 Navigation2 Stack**: For providing the navigation framework.
 - **Gazebo/RViz**: For simulation and visualization.
-```
-
----
 
