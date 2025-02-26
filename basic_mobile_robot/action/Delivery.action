@@ -1,0 +1,14 @@
+# Request
+string table_number   # The table number to deliver the food to
+bool require_confirmation  # If true, wait for confirmation at each step
+bool allow_cancellation    # If true, allow cancellations
+bool multiple_orders       # If true, multiple orders are handled in one request
+string[] order_list        # List of tables for multiple orders
+---
+# Feedback
+string current_location    # Kitchen, Table, Home
+string status              # Moving, Waiting, Cancelled, Completed
+---
+# Result
+bool success
+string final_status        # Completed, Cancelled, Timed out
